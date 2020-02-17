@@ -8,7 +8,7 @@ var data = new Date();
 
 var annoCorrente = data.getFullYear();
 
-var password = idNome + idCognome + idColore +  (annoCorrente - 2000);
+var password = idNome + ';' +  idCognome + ';' + idColore + ';' + (annoCorrente - 2000);
 document.getElementById('genera-password').innerHTML = password;
 
 document.getElementById('container').setAttribute('class','visible');
